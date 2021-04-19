@@ -41,7 +41,7 @@
             default: 0,
           },
           /*
-          * Sets the diameter of the circle in pixels
+          * Sets the diameter of the progress circle in pixels
           */
           size: {
             type: Number,
@@ -110,7 +110,7 @@
             type: String,
             default: '',
           },
-          /*border
+          /*
           * Sets the sector fill.
           */
           borderFill: {
