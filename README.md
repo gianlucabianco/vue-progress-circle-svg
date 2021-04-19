@@ -72,7 +72,7 @@ ___
 
 This is my first package, and a first step to the OSS world.
 
-Feel free to open `issues`, make suggest stuff opening a `discussion` or `Contribute`.
+Feel free to open `issues`, make suggestions via `discussions`, or `Contribute`.
 
 Thanks for using this component 💘.
 
