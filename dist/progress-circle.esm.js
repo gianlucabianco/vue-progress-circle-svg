@@ -41,7 +41,7 @@ var script = {
     },
 
     /*
-    * Sets the diameter of the circle in pixels
+    * Sets the diameter of the progress circle in pixels
     */
     size: {
       type: Number,
@@ -120,7 +120,7 @@ var script = {
       default: ''
     },
 
-    /*border
+    /*
     * Sets the sector fill.
     */
     borderFill: {
@@ -389,8 +389,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-352c6438_0", {
-    source: ".vue-progress-circle-svg[data-v-352c6438]{transform:rotate(-90deg)}",
+  inject("data-v-29944985_0", {
+    source: ".vue-progress-circle-svg[data-v-29944985]{transform:rotate(-90deg)}",
     map: undefined,
     media: undefined
   });
@@ -398,7 +398,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-352c6438";
+const __vue_scope_id__ = "data-v-29944985";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;

@@ -95,7 +95,7 @@ var script = {
     },
 
     /*
-    * Sets the diameter of the circle in pixels
+    * Sets the diameter of the progress circle in pixels
     */
     size: {
       type: Number,
@@ -174,7 +174,7 @@ var script = {
       default: ''
     },
 
-    /*border
+    /*
     * Sets the sector fill.
     */
     borderFill: {
@@ -390,7 +390,7 @@ var __vue_render__ = function __vue_render__() {
       "width": _vm.size,
       "height": _vm.size
     }
-  }, 'svg', _vm.svgCustomProps, false), [_vm._ssrNode((_vm.value ? "<path" + _vm._ssrAttr("fill", _vm.sectorFill) + _vm._ssrAttr("stroke", _vm.sectorStroke) + _vm._ssrAttr("fill-rule", _vm.sectorFillRule) + _vm._ssrAttr("d", _vm.path) + _vm._ssrAttrs(_vm.sectorCustomProps) + _vm._ssrClass(null, _vm.sectorClassName) + " data-v-352c6438></path>" : "<!---->") + " <circle" + _vm._ssrAttr("cx", _vm.circleCenter) + _vm._ssrAttr("cy", _vm.circleCenter) + _vm._ssrAttr("r", _vm.circleRadius) + _vm._ssrAttr("stroke-width", _vm.borderWidth) + _vm._ssrAttr("fill", _vm.borderFill) + _vm._ssrAttr("stroke", _vm.borderStroke) + _vm._ssrAttrs(_vm.circleCustomProps) + " data-v-352c6438></circle>")]);
+  }, 'svg', _vm.svgCustomProps, false), [_vm._ssrNode((_vm.value ? "<path" + _vm._ssrAttr("fill", _vm.sectorFill) + _vm._ssrAttr("stroke", _vm.sectorStroke) + _vm._ssrAttr("fill-rule", _vm.sectorFillRule) + _vm._ssrAttr("d", _vm.path) + _vm._ssrAttrs(_vm.sectorCustomProps) + _vm._ssrClass(null, _vm.sectorClassName) + " data-v-29944985></path>" : "<!---->") + " <circle" + _vm._ssrAttr("cx", _vm.circleCenter) + _vm._ssrAttr("cy", _vm.circleCenter) + _vm._ssrAttr("r", _vm.circleRadius) + _vm._ssrAttr("stroke-width", _vm.borderWidth) + _vm._ssrAttr("fill", _vm.borderFill) + _vm._ssrAttr("stroke", _vm.borderStroke) + _vm._ssrAttrs(_vm.circleCustomProps) + " data-v-29944985></circle>")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -398,8 +398,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-352c6438_0", {
-    source: ".vue-progress-circle-svg[data-v-352c6438]{transform:rotate(-90deg)}",
+  inject("data-v-29944985_0", {
+    source: ".vue-progress-circle-svg[data-v-29944985]{transform:rotate(-90deg)}",
     map: undefined,
     media: undefined
   });
@@ -407,10 +407,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-352c6438";
+var __vue_scope_id__ = "data-v-29944985";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-352c6438";
+var __vue_module_identifier__ = "data-v-29944985";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
